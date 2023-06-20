@@ -139,8 +139,10 @@ footer nav ul li a{
 
 footer a:hover{
     text-decoration: dotted;
-    background-color: rgb(156, 7, 7);
-    transition: 0.2s;
+    background-color: rgb(118, 6, 6);
+    transition: 1.2s;
+    border: 1px solid black;
+    color: white;
 }
 .boton-form{
     background-color: brown;
