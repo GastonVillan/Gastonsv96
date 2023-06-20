@@ -137,6 +137,12 @@ footer nav ul li a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: dotted;
+    background-color: brown;
+}
+
+
 @media (max-width:576px) {
     body{
         width: 576px;
