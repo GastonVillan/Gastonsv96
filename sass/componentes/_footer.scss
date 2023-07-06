@@ -1,0 +1,22 @@
+footer{
+    @include estilo (rgba(30, 30, 30, 0.591), rgb(248, 246, 246),none);
+    padding: $pdd1;
+    overflow-x: $over-x;
+    ul{
+        @extend %parrafos;
+        list-style: $none;
+        li {
+            @extend %parrafos;
+            a{
+                @include d-p(inline-block, initial,right);
+                color: $clr-a;
+                text-decoration: $none;
+                &:hover{
+                    text-decoration: $text-dh;
+                    color: $clr;
+                    }
+            }
+        
+        }
+    }
+}

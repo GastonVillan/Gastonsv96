@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Villan Motos</title>
+
+  <!-- meta descripcion -->
+  <meta name="descripcion" content="conoce nuestro taller mecanico donde podras realizar tus services o trabajos que necesites para tu moto en el mejor taller mecanico de Cordoba Capital. Contactanos y saca tu turno">
+  
+  <!--meta keywords-->
+  <meta name="keywords" content="villan motos, taller mecanico, honda, kawasaki, suzuki, yamaha, repuestos originales, trabajos de enderezado, services de mantenimiento, services completo, trabajos de pintura, arenado, inyeccion, trabajos computarizados, presupuestos para seguro, limpieza en batea de ultrasonido y reparacion de carburadores">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    
-    <link rel="shortcut icon" href="imagenes/imagenTallerExterior.jpg" type="image/x-icon">
+  
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
     
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/d06e4f3bab.js" crossorigin="anonymous"></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>VILLAN MOTOS</title>
 
 </head>
 <body>
@@ -28,16 +40,16 @@
               <a class="nav-link active navbar-nv" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar-nv" aria-current="page" href="quienes_somos.html">Quienes Somos</a>
+              <a class="nav-link active navbar-nv" aria-current="page" href="./pages/quienes_somos.html">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar-nv" aria-current="page" href="galeria.html">Galeria</a>
+              <a class="nav-link active navbar-nv" aria-current="page" href="./pages/galeria.html">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar-nv" aria-current="page" href="nuestrasredes.html">Nuestras Redes</a>
+              <a class="nav-link active navbar-nv" aria-current="page" href="./pages/nuestrasredes.html">Nuestras Redes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar-nv" aria-current="page" href="encontranos.html">Encontranos</a>
+              <a class="nav-link active navbar-nv" aria-current="page" href="./pages/encontranos.html">Encontranos</a>
             </li>
           </ul>
         </div>
@@ -47,43 +59,42 @@
     <main>
         <div class="conteiner-fluid container-mio">
             <div class="row">
-                <section class="carrousel-espacio carrousel-cel">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner carrousel-mio">
-                          <div class="carousel-item active">
-                            <img src="imagenes/trabajo.jpg" class="d-block w-100" alt="services">
-                          </div>
-                          <div class="carousel-item carrousel-mio">
-                            <img src="imagenes/trabajo_moto2.jpg" class="d-block w-100" alt="motos">
-                          </div>
-                          <div class="carousel-item carrousel-mio">
-                            <img src="imagenes/trabajo_moto3.jpg" class="d-block w-100" alt="taller">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/trabajos_moto1.png" class="d-block w-100" alt="taller de motocicletas">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/trabajo_moto2.jpg" class="d-block w-100" alt="motocicletas japonesas">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/trabajo_moto3.png" class="d-block w-100" alt="services">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
                     </section>
             </div>
         </div>    
             <section>
-                <div>       
-                    <h1>Villan Motos</h1>
-                    <p> Conoce nuestros servicios y consulta por tu turno </p>           
-                    <br>
-                </div>
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+                   <div>       
+                     <h1>Villan Motos</h1>
+                     <p> Conoce nuestros servicios y consulta por tu turno </p>           
+                   </div>
+                 </div>
             </section>
             <section>
+              <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                 <div>
                 <div class="conteiner">
                     <div class="row text-center">
@@ -103,10 +114,11 @@
                           </ul>
                     </div>
                 </div>
+              </div>
             </section>
         </div>
-
-            <br>
+          <div data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
             <div class="conteiner-fluid">
                 <div class="row col">
                     <h2>¿Que marcas trabajamos?</h2>        
@@ -116,20 +128,20 @@
                         <li  class="col-sm-1">Suzuki</li>
                         <li  class="col-sm-1">Kawasaki</li>
                     </ul>
-                    <img  class="col-lg-2 col-sm-2 img-mias" src="./imagenes/honda_logo.png" alt="honda">
-                    <img  class="col-lg-2 col-sm-2 img-mias" src="./imagenes/yamaha_logo.png" alt="yamaha">
-                    <img  class="col-lg-2 col-sm-2 img-mias" src="./imagenes/suzuki_logo.png" alt="suzuki">
-                    <img  class="col-lg-2 col-sm-2 img-mias" src="./imagenes/kawasaki_logo.png" alt="kawasaki">  
+                    <img src="./imagenes/honda_logo.png" class="rounded mx-auto d-block col-lg-2 col-sm-2 img-mias" alt="honda">
+                    <img src="./imagenes/yamaha_logo.png" class="rounded mx-auto d-block col-lg-2 col-sm-2 img-mias" alt="yamaha">
+                    <img src="./imagenes/suzuki_logo.png" class="rounded mx-auto d-block col-lg-2 col-sm-2 img-mias" alt="Suzuki">
+                    <img src="./imagenes/kawasaki_logo.png" class="rounded mx-auto d-block col-lg-2 col-sm-2 img-mias" alt="kawasaki">
                 </div>
-            </div>        
+            </div>
+          </div>        
     </main>
         <br>
-<!--imagenes al lado-->
 <section>
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card card-mias">
-            <img src="imagenes/imagenTallerExterior.jpg" class="card-img-top" alt="nuestrolocal">
+            <img src="imagenes/imagenTallerExterior.png" class="card-img-top" alt="nuestro local">
             <div class="card-body">
               <h5 class="card-title">SOBRE NUESTRO LOCAL</h5>
               <p class="card-text">Nuestro local que queda en la dirección de Av. Julio A. Roca 1142, Maurizzi. Provincia: Cordoba Capital         
@@ -144,7 +156,7 @@
         </div>
         <div class="col">
           <div class="card card-mias">
-            <img src="imagenes/trabajo_yo.png" class="card-img-top" alt="...">
+            <img src="imagenes/trabajo_yo.png" class="card-img-top" alt="que trabajos realizamos">
             <div class="card-body">
               <h5 class="card-title">¿QUE TRABAJOS REALIZAMOS?</h5>
               <p class="card-text">                
@@ -164,7 +176,7 @@
         </div>
         <div class="col">
           <div class="card card-mias">
-            <img src="imagenes/batea_ultrasonido.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/batea_ultrasonido.png" class="card-img-top" alt="metodo de limpieza de piezas">
             <div class="card-body">
               <h5 class="card-title">BATEA DE ULTRASONIDO</h5>
               <p class="card-text">Un limpiador ultrasónico o baño de ultrasonidos es, básicamente, un aparato que utiliza la vibración para limpiar la suciedad de la superficie de los objetos. Este equipo se utiliza para la limpieza de objetos delicados de los cuerpos de carburadores.</p>
@@ -173,7 +185,7 @@
         </div>
         <div class="col">
           <div class="card card-mias">
-            <img src="imagenes/taller_interior.jpg" class="card-img-top" alt="...">
+            <img src="imagenes/taller_interior.png" class="card-img-top" alt="trabajos computarizados y alineado de chasis">
             <div class="card-body">
               <h5 class="card-title">BANCO DE ENDEREZADO Y TRABAJOS COMPUTARIZADOS</h5>
               <p class="card-text">Esta es una soldadura de Metal de Gas Inerte, la cual no daña las propiedades de su carrocería, garantizando que su vehículo no pierda los estándares con los cuales fue fabricado. Tambien se realizamos trabajos computarizados y trabajos en inyeccion de las motos</p>
@@ -182,9 +194,7 @@
         </div>
       </div>
 </section>
-
-<br>
-        
+<br>        
     <footer>
       <div class="container">
           <div class="row">
@@ -193,10 +203,10 @@
                   <nav>
                   <ul>
                       <li class="p-2"><a href="index.html"> inicio</a></li>
-                      <li class="p-2"><a href="quienes_somos.html"> Quienes Somos</a></li>
-                      <li class="p-2"><a href="galeria.html">Galeria</a></li>
-                      <li class="p-2"><a href="nuestrasredes.html">Nuestras Redes</a></li>
-                      <li class="p-2"><a href="encontranos.html">Encontranos</a></li>
+                      <li class="p-2"><a href="./pages/quienes_somos.html"> Quienes Somos</a></li>
+                      <li class="p-2"><a href="./pages/galeria.html">Galeria</a></li>
+                      <li class="p-2"><a href="./pages/nuestrasredes.html">Nuestras Redes</a></li>
+                      <li class="p-2"><a href="./pages/encontranos.html">Encontranos</a></li>
                   </ul>                       
                   </nav>
                 </div>
@@ -220,5 +230,9 @@
         </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
   </html>

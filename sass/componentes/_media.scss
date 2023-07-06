@@ -1,0 +1,23 @@
+@media screen and (max-width:576px) {
+    body{
+        @include margenes (none, 2px 0.5px);
+        margin-top: $pdd1;
+        height: $init;
+    }
+    header{
+        @include margenes (none, 25px);
+        height: $hgtotal;
+        background-image: $none;
+    }
+    main{
+        @include margenes(10px,30px 50px);
+    }
+    .img-mias{
+        @include estilo(black,none,1px solid rgb(120, 4, 4));
+        @include margenes(1.5px 2px, 8px);
+    }
+
+    footer{
+        padding: $ppd4;
+    }
+}

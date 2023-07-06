@@ -1,0 +1,7 @@
+.list-group-item{
+    @include estilo(rgba(161, 20, 20, 0.229), white,black);
+}
+.lista-mia{  
+    @extend %parrafos;
+    @include estilo(rgb(156, 22, 22),white,4px solid rgb(6, 6, 6)); 
+}

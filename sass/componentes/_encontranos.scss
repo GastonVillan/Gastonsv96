@@ -1,0 +1,20 @@
+.boton-form{
+    @include estilo (white, black, 1.5px solid black);
+    font-family:$font-f-frm;
+    &:hover{
+        @include estilo(rgb(233, 106, 106),black,1.5px solid rgb(237, 134, 134));
+        transition: $trans;
+    }
+}
+.form-mio{
+    @include estilo(white,black,1.5 solid black);
+    text-decoration: $none; 
+    &:hover{
+    @include estilo(rgb(233, 106, 106),black,1.5px solid rgb(237, 134, 134));
+    transition: $trans;
+    }
+}
+.horarios{
+    @include estilo(rgba(0, 0, 0, 0.529),white,3px solid black);
+    @extend %parrafos;
+}

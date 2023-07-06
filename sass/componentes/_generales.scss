@@ -1,0 +1,44 @@
+/*generales*/
+* {
+    @include margenes(0px, 0px)
+}
+body{
+    @extend %parrafos;
+    background: $bgkfondo;
+    height: $hgtotal;
+}
+.conteiner-mio{
+    @include margenes(none, 50px)
+}
+header{ 
+    height: map-get($header , hgt);
+    background-image: map-get($header , backg-img);
+    background-size: map-get($header , backg-sz );
+    overflow-x: $over-x;
+}
+main{ 
+    margin:map-get($main, mrg);
+    margin-top:map-get($main, mrg-tp);
+    padding:map-get($main , pdng)
+}
+
+.texto_main{
+    @extend %parrafos;
+    padding: $ppd4;
+    }
+h4{
+    @extend %h;
+}
+h3 {
+    @extend %h;
+}
+h2{
+    @extend %h;
+} 
+ 
+h1 {
+    @extend %h;
+}
+p {
+    @extend %parrafos;
+}

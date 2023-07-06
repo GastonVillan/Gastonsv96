@@ -1,0 +1,29 @@
+.navbar-nv{
+    @extend %parrafos;
+    @include d-f(flex, row-reverse);
+}
+.tex-navbar{
+    @extend %parrafos;
+    margin-left: $ppd4;
+    font-weight: $font-wh;
+}
+.navbar-mia{
+    @extend %parrafos;
+    list-style: $none;
+    background-color: $bkg-nv;
+}
+.navbar-cabeza{
+    color: $bkg;
+    padding-top: $pdd5;
+}
+.boton-mio{
+    background-color: $bkg;
+}
+.titulo-nav{
+    @include estilo( rgb(1, 1, 26),white, 3px solid rgba(57, 57, 57, 0.944));
+    list-style: $none;
+}
+.navbar-pie{
+    text-align: $init;
+    color: $bkg;
+}

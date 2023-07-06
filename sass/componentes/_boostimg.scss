@@ -1,0 +1,18 @@
+.carrousel-espacio{
+     width: $wdt;
+     padding: $pdd3;
+}
+.carrousel-mio{
+    @extend %multim;
+    @include margenes(30px,30px) 
+}
+.img-mias{
+    @extend %multim;
+    @include margenes(2px, 30px);
+    background-color: $clr-a;
+}
+.card-mias{
+    @extend %multim;
+    @extend %parrafos;
+    background-color: $bkg;
+}

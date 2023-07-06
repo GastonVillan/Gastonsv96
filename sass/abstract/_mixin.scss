@@ -1,0 +1,19 @@
+@mixin estilo($bgc, $clr,$brd){
+    background-color: $bgc;
+    color: $clr;
+    border: $brd;
+}
+
+@mixin margenes ($pd,$mg,){
+    padding: $pd;
+    margin: $mg;
+}
+@mixin d-p($dsp,$just,$tex-a){
+    display: $dsp;
+    justify-content: $just;
+    text-align: $tex-a;
+}
+@mixin d-f ($dsp, $flex){
+    display: $dsp;
+    flex-direction: $flex;
+}
