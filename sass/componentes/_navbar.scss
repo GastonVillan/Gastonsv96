@@ -1,6 +1,7 @@
 .navbar-nv{
     @extend %parrafos;
     @include d-f(flex, row-reverse);
+    color: $clr-a;
 }
 .tex-navbar{
     @extend %parrafos;

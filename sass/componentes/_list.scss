@@ -5,3 +5,11 @@
     @extend %parrafos;
     @include estilo(rgb(156, 22, 22),white,4px solid rgb(6, 6, 6)); 
 }
+ul{
+    @extend %parrafos;
+    list-style: $none;
+    li {
+        @extend %parrafos;
+        list-style: $none;    
+    }
+}
