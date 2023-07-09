@@ -3,9 +3,14 @@
     @include margenes(0px, 0px)
 }
 body{
-    @extend %parrafos;
+    font-size: map-get($body , font-s);
+    color: map-get($body, clr);
+    list-style: map-get($body, list-sty);
+    text-decoration: map-get($body , text-deco);
     background: $bgkfondo;
     height: $hgtotal;
+    font-family: $font-f-b;
+
 }
 .conteiner-mio{
     @include margenes(none, 50px)
@@ -24,7 +29,7 @@ main{
 
 .texto_main{
     @extend %parrafos;
-    padding: $ppd4;
+    padding: $pdd5;
     }
 h4{
     @extend %h;

@@ -6,6 +6,9 @@
     @extend %multim;
     @include margenes(30px,30px) 
 }
+.carrousel-mio-galeria{
+    @include estilo(black, white, 3px solid black);
+}
 .img-mias{
     @extend %multim;
     @include margenes(2px, 30px);

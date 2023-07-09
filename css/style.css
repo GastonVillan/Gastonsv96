@@ -9,9 +9,9 @@ h1, h2, h3, h4 {
   margin-top: 100px;
 }
 
-footer ul li, footer ul, .navbar-mia, .tex-navbar, .navbar-nv, ul li, ul, .lista-mia, .horarios, .card-mias, p, .texto_main, body {
+footer ul li, footer ul, .navbar-mia, .tex-navbar, .navbar-nv, ul li, ul, .lista-mia, .horarios, .card-mias, p, .texto_main {
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(255, 255, 255);
   padding: 5px;
   list-style: none;
@@ -31,8 +31,13 @@ footer ul li, footer ul, .navbar-mia, .tex-navbar, .navbar-nv, ul li, ul, .lista
 }
 
 body {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
   background: linear-gradient(180deg, rgb(0, 0, 3) 0%, rgb(97, 0, 9) 14%, rgb(126, 1, 26) 50%, rgb(97, 0, 9) 86%, rgb(0, 0, 0) 100%);
   height: 100%;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .conteiner-mio {
@@ -54,7 +59,7 @@ main {
 }
 
 .texto_main {
-  padding: 20px;
+  padding: 200px;
 }
 
 p {
@@ -69,6 +74,12 @@ p {
 .carrousel-mio {
   padding: 30px;
   margin: 30px;
+}
+
+.carrousel-mio-galeria {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
 }
 
 .img-mias {
