@@ -13,7 +13,7 @@
         @include margenes(10px,30px 50px);
     }
     .img-mias{
-        @include estilo(black,none,1px solid rgb(120, 4, 4));
+        @include estilo(rgb(255, 255, 255),none,1px solid rgb(120, 4, 4));
         @include margenes(1.5px 2px, 8px);
     }
 
