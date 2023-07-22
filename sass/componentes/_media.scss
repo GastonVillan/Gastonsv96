@@ -10,10 +10,10 @@
         background-image: $none;
     }
     main{
-        @include margenes(10px,30px 50px);
+        @include margenes(10px,15px);
     }
     .img-mias{
-        @include estilo(rgb(255, 255, 255),none,1px solid rgb(120, 4, 4));
+        @include estilo(rgb(0, 0, 0),none,1px solid rgb(120, 4, 4));
         @include margenes(1.5px 2px, 8px);
     }
 
