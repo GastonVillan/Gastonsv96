@@ -217,10 +217,10 @@ footer ul li a:hover {
   }
   main {
     padding: 10px;
-    margin: 30px 50px;
+    margin: 15px;
   }
   .img-mias {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: none;
     border: 1px solid rgb(120, 4, 4);
     padding: 1.5px 2px;
